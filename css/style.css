@@ -326,6 +326,24 @@ a:active {
       margin-bottom: 20px;
     }
   }
+  @media(max-width: 412px){
+    #EXPERIENCE{
+        height: 1380px;
+    }
+    .EXPERIENCE-cover {
+        height: 1535px;
+    }
+    .skillcontainer{
+        margin-top: 220px;
+        padding: 0px;
+      }
+    .skillcontainer .wrapper{
+      max-width: 500px;
+    }
+    .skillcontainer .wrapper .card{
+      width: 100%;
+    }
+  } 
   @media(max-width: 390px){
     #EXPERIENCE{
         height: 1380px;
@@ -335,6 +353,7 @@ a:active {
     }
     .skillcontainer{
         margin-top: 220px;
+        padding: 0px;
       }
     .skillcontainer .wrapper{
       max-width: 500px;
@@ -343,6 +362,25 @@ a:active {
       width: 100%;
     }
   } 
+  @media(max-width: 216px){
+    #EXPERIENCE{
+        height: 1380px;
+    }
+    .EXPERIENCE-cover {
+        height: 1535px;
+    }
+    .skillcontainer{
+        margin-top: 220px;
+        padding: 0px;
+      }
+    .skillcontainer .wrapper{
+      max-width: 500px;
+    }
+    .skillcontainer .wrapper .card{
+      width: 100%;
+    }
+  } 
+  
 /* .skill-bars {
     padding: 25px 30px;
     width: 600px;
